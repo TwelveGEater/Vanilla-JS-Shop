@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+@import 'variables';
+@import 'navbar';
+@import 'cart';
+@import 'hero';
+@import 'products';
+@import 'responsive';
+@import 'cartItem';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background-image: $mainBlack;
+    color: $mainWhite;
+    letter-spacing: $mainSpacing;
+    outline: none;
+}

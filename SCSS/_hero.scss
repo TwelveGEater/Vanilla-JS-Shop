@@ -1,0 +1,44 @@
+.hero {
+    min-height: 100vh;
+    background: url(".././images/main-bg.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+
+}
+
+.banner {
+    color: $mainWhite;
+    text-align: center;
+    background: rgba(14, 14, 14, 0.486);
+    display: inline-block;
+    padding: 2rem;
+
+    &-title {
+        font-size: 3.4rem;
+        text-transform: uppercase;
+        letter-spacing: $mainSpacing;
+        margin-bottom: 3rem;
+    }
+
+    &-btn {
+        padding: 1rem 3rem;
+        text-transform: uppercase;
+        letter-spacing: $mainSpacing;
+        font-size: 1rem;
+        background: $primaryColor;
+        color: $mainBlack;
+        border: 1px solid $primaryColor;
+        transition: $mainTransition;
+        cursor: pointer;
+        color: black;
+        outline: none;
+
+        &:hover {
+            background: transparent;
+            color: $primaryColor;
+        }
+    }
+
+}
